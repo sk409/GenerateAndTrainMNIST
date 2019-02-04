@@ -11,13 +11,13 @@
 <hr>
 <h2>分類器の性能</h2>
 <h3>敵対的生成ネットワークから生成された画像を用いて学習させた分類器</h3>
-<p>訓練データに対する制度: 99~100%</p>
-<p>検証データに対する制度: 70~75%</p>
-<p>テストデータに対する制度: 70%</p>
+<p>訓練データに対する精度: 99~100%</p>
+<p>検証データに対する精度: 70~75%</p>
+<p>テストデータに対する精度: 70%</p>
 <h3>同じ条件の下で元の画像を用いて学習させた分類器</h3>
-<p>訓練データに対する制度: 99%</p>
-<p>検証データに対する制度: 98%</p>
-<p>テストデータに対する制度: 98%</p>
+<p>訓練データに対する精度: 99%</p>
+<p>検証データに対する精度: 98%</p>
+<p>テストデータに対する精度: 98%</p>
 <small>※このページ末尾に今回学習させた分類器の結果と、同様の条件の下で元の画像を用いて学習させた分類器の結果を掲載してあります。</small>
 <p>以上の結果から、敵対的生成ネットワークから生成される画像に偏りがあると予想しました。</p>
 <p>敵対的生成ネットワークをデータ拡張に応用するには生成されるデータに幅を持たせる必要があるかもしれません。</p>
@@ -31,7 +31,7 @@
 <hr>
 <h2>敵対的生成ネットワークが生成した画像を学習した分類器の結果</h2>
 <figure>
-    <figcaption>訓練データに対する制度</figcaption>
+    <figcaption>訓練データに対する精度</figcaption>
     <img width=500 height=300 src="result_images/acc.svg">
 </figure>
 <figure>
@@ -39,7 +39,7 @@
     <img width=500 height=300 src="result_images/loss.svg">
 </figure>
 <figure>
-    <figcaption>検証データに対する制度</figcaption>
+    <figcaption>検証データに対する精度</figcaption>
     <img width=500 height=300 src="result_images/val_acc.svg">
 </figure>
 <figure>
@@ -48,7 +48,7 @@
 </figure>
 <h2>元の画像を学習した分類器の結果</h2>
 <figure>
-    <figcaption>訓練データに対する制度</figcaption>
+    <figcaption>訓練データに対する精度</figcaption>
     <img width=500 height=300 src="result_images/acc_2.svg">
 </figure>
 <figure>
@@ -56,7 +56,7 @@
     <img width=500 height=300 src="result_images/loss_2.svg">
 </figure>
 <figure>
-    <figcaption>検証データに対する制度</figcaption>
+    <figcaption>検証データに対する精度</figcaption>
     <img width=500 height=300 src="result_images/val_acc_2.svg">
 </figure>
 <figure>
